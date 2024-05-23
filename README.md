@@ -37,7 +37,7 @@ Each dataset contains monthly trip data and contains the following fields:
 
 ## PROCESS
 ### Data Combination
-Since the datasets are separated by months and have the same fields, we will combine them through BigQuery using SQL programming language.
+Considering the huge amount of data that each dataset contain, we will combine them through BigQuery using SQL programming language.
 
 ```
 CREATE TABLE  `coursera-training-420312.cyclistic_bikeshare.combined_data` AS
@@ -77,7 +77,8 @@ CREATE TABLE  `coursera-training-420312.cyclistic_bikeshare.combined_data` AS
   SELECT *
   FROM `coursera-training-420312.cyclistic_bikeshare.202404_tripdata`
 ```
-![image](https://github.com/Drik0y/Cyclistic-Case-Study/assets/170537437/823d0507-2cac-4812-8e19-c862ec9c62e4)
 The query combined all the datasets into one table that has a total of 5,738,612 observations.
+![image](https://github.com/Drik0y/Cyclistic-Case-Study/assets/170537437/823d0507-2cac-4812-8e19-c862ec9c62e4)
+
 
 

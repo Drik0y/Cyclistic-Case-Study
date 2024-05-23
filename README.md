@@ -1,6 +1,7 @@
 # Cyclistic-Case-Study
 
 
-```SELECT *
+```
+SELECT *
 FROM
 ```

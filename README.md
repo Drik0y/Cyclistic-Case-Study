@@ -46,7 +46,7 @@ The query combined all the data into one table that has a total of 5,738,612 obs
 
 ### Data Checking
 #### Looking for Null Values
-Through this [query statement], we found out that start_station_name and start_station_id has 885,429 null values, end_station_name and end_station_id has 939,115 null values, and end_lat and end_lng has 7,610 null values.
+Through this [query statement](https://github.com/Drik0y/Cyclistic-Case-Study/blob/main/data_checking.sql), we found out that start_station_name and start_station_id has 885,429 null values, end_station_name and end_station_id has 939,115 null values, and end_lat and end_lng has 7,610 null values.
 
 ![image](https://github.com/Drik0y/Cyclistic-Case-Study/assets/170537437/8d3c2bbe-77fb-4891-bcf5-ea30a3a940d8)
 

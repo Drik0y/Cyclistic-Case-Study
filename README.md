@@ -41,48 +41,7 @@ Each dataset contains monthly trip data and contains the following fields:
 ### Data Combination
 Considering the massive amount of data that the data files contain, we will combine them through [BigQuery](https://console.cloud.google.com/projectselector2/bigquery?supportedpurview=project&authuser=1) using SQL programming language.
 
-```
-CREATE TABLE  `coursera-training-420312.cyclistic_bikeshare.combined_data` AS
-  SELECT *
-  FROM `coursera-training-420312.cyclistic_bikeshare.202305_tripdata`
-  UNION ALL
-  SELECT *
-  FROM `coursera-training-420312.cyclistic_bikeshare.202306_tripdata`
-  UNION ALL
-  SELECT *
-  FROM `coursera-training-420312.cyclistic_bikeshare.202307_tripdata`
-  UNION ALL
-  SELECT *
-  FROM `coursera-training-420312.cyclistic_bikeshare.202308_tripdata`
-  UNION ALL
-  SELECT *
-  FROM `coursera-training-420312.cyclistic_bikeshare.202309_tripdata`
-  UNION ALL
-  SELECT *
-  FROM `coursera-training-420312.cyclistic_bikeshare.202310_tripdata`
-  UNION ALL
-  SELECT *
-  FROM `coursera-training-420312.cyclistic_bikeshare.202311_tripdata`
-  UNION ALL
-  SELECT *
-  FROM `coursera-training-420312.cyclistic_bikeshare.202312_tripdata`
-  UNION ALL
-  SELECT *
-  FROM `coursera-training-420312.cyclistic_bikeshare.202401_tripdata`
-  UNION ALL
-  SELECT *
-  FROM `coursera-training-420312.cyclistic_bikeshare.202402_tripdata`
-  UNION ALL
-  SELECT *
-  FROM `coursera-training-420312.cyclistic_bikeshare.202403_tripdata`
-  UNION ALL
-  SELECT *
-  FROM `coursera-training-420312.cyclistic_bikeshare.202404_tripdata`
-```
 The query combined all the data into one table that has a total of 5,738,612 observations.
 ![image](https://github.com/Drik0y/Cyclistic-Case-Study/assets/170537437/823d0507-2cac-4812-8e19-c862ec9c62e4)
 
-Note: 
-
-
-
+SQL query statement for [data combination](https://github.com/Drik0y/Cyclistic-Case-Study/blob/main/data_combination.sql) for your reference.

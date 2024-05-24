@@ -20,7 +20,7 @@ This case-study is a capstone project for the completion of [Google Data Analyti
 
 The data used are the previous 12 months (**May 2023 to April 2024**) [trip data of Cyclistic Bike-Share](https://divvy-tripdata.s3.amazonaws.com/index.html) and was extracted on the 13th day of May 2024. The data came from 5,824 bicycles that are geo-tracked and locked into a network of 692 stations across Chicago. The data has been made available by Motivate International Inc. under this [license](https://divvybikes.com/data-license-agreement).
 
-***Note:  Data-privacy issues prohibit you from using riders’ personally identifiable information. This means that you won’t be able to connect pass purchases to credit card numbers to determine if casual riders live in the Cyclistic service area or if they have purchased multiple single passes.***
+***Note:  Data-privacy issues prohibit using riders’ personally identifiable information. This means that we won’t be able to connect pass purchases to credit card numbers to determine if casual riders live in the Cyclistic service area or if they have purchased multiple single passes.***
 
 Each dataset contains monthly trip data and contains the following fields:
 1. ride_id – the unique key for each trip

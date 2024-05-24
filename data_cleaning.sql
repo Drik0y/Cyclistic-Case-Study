@@ -1,3 +1,4 @@
+-- Data Cleaning: making new table that omits rows that negatively affects data integrity and columns that will not be used
 CREATE TABLE IF NOT EXISTS `coursera-training-420312.cyclistic_bikeshare.cleaned_combined_data1` AS
   SELECT 
     table1.ride_id,

@@ -39,9 +39,16 @@ Each dataset contains monthly trip data and contains the following fields:
 
 ## PROCESS
 ### Data Combination
-Considering the massive amount of data that the data files contain, we will combine them through [BigQuery](https://console.cloud.google.com/projectselector2/bigquery?supportedpurview=project&authuser=1) using SQL programming language.
+Considering the massive amount of data that the data files contain, we will combine them through [BigQuery](https://console.cloud.google.com/projectselector2/bigquery?supportedpurview=project&authuser=1) using [SQL query statement](https://github.com/Drik0y/Cyclistic-Case-Study/blob/main/data_combination.sql).
 
 The query combined all the data into one table that has a total of 5,738,612 observations.
 ![image](https://github.com/Drik0y/Cyclistic-Case-Study/assets/170537437/823d0507-2cac-4812-8e19-c862ec9c62e4)
 
-SQL query statement for [data combination](https://github.com/Drik0y/Cyclistic-Case-Study/blob/main/data_combination.sql) for your reference.
+### Data Checking
+#### Looking for Null Values
+Through this [query statement], we found out that start_station_name and start_station_id has 885,429 null values, end_station_name and end_station_id has 939,115 null values, and end_lat and end_lng has 7,610 null values.
+
+![image](https://github.com/Drik0y/Cyclistic-Case-Study/assets/170537437/8d3c2bbe-77fb-4891-bcf5-ea30a3a940d8)
+
+
+

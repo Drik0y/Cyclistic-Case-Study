@@ -1,4 +1,5 @@
--- Data Cleaning: making new table that omits rows that negatively affects data integrity and columns that will not be used
+-- Data Cleaning: Creating new table that removes rows that negatively affects data integrity and columns that will not be used
+-- New columns will be added: ride_duration, day_of_week, and month
 CREATE TABLE IF NOT EXISTS `coursera-training-420312.cyclistic_bikeshare.cleaned_combined_data1` AS
   SELECT 
     table1.ride_id,

@@ -23,19 +23,19 @@ The data used are the previous 12 months (**May 2023 to April 2024**) [trip data
 ***Note:  Data-privacy issues prohibit using riders’ personally identifiable information. This means that we won’t be able to connect pass purchases to credit card numbers to determine if casual riders live in the Cyclistic service area or if they have purchased multiple single passes.***
 
 Each dataset contains monthly trip data and contains the following fields:
-1. ride_id – the unique key for each trip
-2. rideable_type – the type of bike used
-3. started_at – the date and time that the use of bike started
-4. ended_at - the date and time that the use of bike ended
-5. start_station_name – the station where the use of bike has started 
-6. start_station_id – the id for the station where the use of bike has started 
-7. end_station_name – the station where the use of bike has ended 
-8. end_station_id - the id for the station where the use of bike has ended
-9. start_lat – the latitude of the station where the use of bike started
-10. start_lng – the longitude of the station where the use of bike started
-11. end_lat - the latitude of the station where the use of bike ended
-12. end_lng - the longitude of the station where the use of bike ended.
-13. member_casual – identifies whether the user is a member or a casual rider
+1. ***ride_id*** – the unique key for each trip
+2. ***rideable_type*** – the type of bike used
+3. ***started_at*** – the date and time that the use of bike started
+4. ***ended_at*** - the date and time that the use of bike ended
+5. ***start_station_name*** – the station where the use of bike has started 
+6. ***start_station_id*** – the id for the station where the use of bike has started 
+7. ***end_station_name*** – the station where the use of bike has ended 
+8. ***end_station_id*** - the id for the station where the use of bike has ended
+9. ***start_lat*** – the latitude of the station where the use of bike started
+10. ***start_lng*** – the longitude of the station where the use of bike started
+11. ***end_lat*** - the latitude of the station where the use of bike ended
+12. ***end_lng*** - the longitude of the station where the use of bike ended.
+13. ***member_casual*** – identifies whether the user is a member or a casual rider
 
 ## PROCESS
 ### Data Combination
@@ -46,7 +46,7 @@ The [query statement](https://github.com/Drik0y/Cyclistic-Case-Study/blob/main/d
 
 ### Data Checking
 #### Looking for Null Values
-Through this [query statement](https://github.com/Drik0y/Cyclistic-Case-Study/blob/main/data_checking.sql), we found out that start_station_name and start_station_id has 885,429 null values, end_station_name and end_station_id has 939,115 null values, and end_lat and end_lng has 7,610 null values.
+Through this [query statement](https://github.com/Drik0y/Cyclistic-Case-Study/blob/main/data_checking.sql), we found out that ***start_station_name*** and ***start_station_id*** has 885,429 null values, ***end_station_name*** and ***end_station_id*** has 939,115 null values, and end_lat and end_lng has 7,610 null values.
 
 ![image](https://github.com/Drik0y/Cyclistic-Case-Study/assets/170537437/8d3c2bbe-77fb-4891-bcf5-ea30a3a940d8)
 

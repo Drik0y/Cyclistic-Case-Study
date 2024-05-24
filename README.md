@@ -39,13 +39,16 @@ Each dataset contains monthly trip data and contains the following fields:
 
 ## PROCESS
 ### Data Combination
+SQL Query for [combining data](https://github.com/Drik0y/Cyclistic-Case-Study/blob/main/data_combination.sql).
 Considering the massive amount of data that the data files contain, we will combine them through [BigQuery](https://console.cloud.google.com/projectselector2/bigquery?supportedpurview=project&authuser=1) using SQL queries. 
 
-The [query statement](https://github.com/Drik0y/Cyclistic-Case-Study/blob/main/data_combination.sql) combined all data into one table that has a total of 5,738,612 observations.
+The query combined all data into one table that has a total of 5,738,612 observations.
 
 ![image](https://github.com/Drik0y/Cyclistic-Case-Study/assets/170537437/823d0507-2cac-4812-8e19-c862ec9c62e4)
 
 ### Data Checking
+All SQL queries for [data checking](https://github.com/Drik0y/Cyclistic-Case-Study/blob/main/data_checking.sql).
+
 #### Looking for Null Values
 We found out that ***start_station_name*** and ***start_station_id*** has 885,429 null values, ***end_station_name*** and ***end_station_id*** has 939,115 null values, and ***end_lat*** and ***end_lng*** has 7,610 null values.
 
@@ -78,10 +81,10 @@ We checked if there are trips that did not reach the 1-minute mark. There are 13
 We will also checked if there are trips that are longer than a day. And, there are 8,286 trips that are longer than a day.
 ![image](https://github.com/Drik0y/Cyclistic-Case-Study/assets/170537437/134ff6e8-6ec4-4f3d-a7df-a5ba72f3fddc)
 
-***Note: All data checking query statements used are stored in [this file](https://github.com/Drik0y/Cyclistic-Case-Study/blob/main/data_checking.sql).***
-
 ### Data Cleaning
-We have created a new table named ***cleaned_combined_data*** through this [SQL query](https://github.com/WilmarLofranco/Cyclistic-Case-Study/blob/main/data_cleaning.sql) where the following observations are omitted:
+SQL query for [data cleaning](https://github.com/WilmarLofranco/Cyclistic-Case-Study/blob/main/data_cleaning.sql).
+
+We have created a new table named ***cleaned_combined_data*** through this  where the following observations are omitted:
 - Observations with have trip durations that did not reach the 1-minute mark.
 - Observations with have trip durations that are longer than a day.
 - Rows have null latitude and longitude.

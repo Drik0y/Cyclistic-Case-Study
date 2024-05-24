@@ -64,8 +64,23 @@ We counted the number of total observations and compared it to the count of dist
 ![image](https://github.com/Drik0y/Cyclistic-Case-Study/assets/170537437/17082cfd-2a61-424c-9dbc-c7c8496d8a0d)
 
 #### Checking for Invalid / Mispelled Bike Type Values
-We queried all unique values in the *rideable_type* column and only 3 unique types of bike came from the result: electric bikes, classic bikes, and docked bikes. No mispelled or invalid type of bike entry.
+We queried all unique values in the *rideable_type* column and only 3 unique types of bike came from the result: electric bikes, classic bikes, and docked bikes. No mispelled or invalid type of bike values.
 ![image](https://github.com/Drik0y/Cyclistic-Case-Study/assets/170537437/47cc6b9d-eef3-4a10-a576-37af7b0e169a)
+
+#### Checking for Invalid / Mispelled Type of Users
+We also queried all unique values in the *member_casual* column and only 2 unique types of user came from the result: electric member and casual. No mispelled or invalid type of user values.
+![image](https://github.com/Drik0y/Cyclistic-Case-Study/assets/170537437/b3195199-d3f7-4286-b968-1947490e0c6f)
+
+#### Looking for Outliers in the Trip Duration
+We checked if there are trips that did not reach the 1-minute mark. There are 139,873 trips that did not took a minute.
+![image](https://github.com/Drik0y/Cyclistic-Case-Study/assets/170537437/97326712-6c00-47c4-8bbd-bbbe24d43623)
+
+We will also checked if there are trips that are longer than a day. And, there are 8,286 trips that are longer than a day.
+![image](https://github.com/Drik0y/Cyclistic-Case-Study/assets/170537437/134ff6e8-6ec4-4f3d-a7df-a5ba72f3fddc)
+
+### Data Cleaning
+
+
 
 
 

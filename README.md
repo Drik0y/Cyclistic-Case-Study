@@ -89,9 +89,9 @@ Columns for the station names: *start_station_name* and *end_station_name* are n
 A total of 5,590,789 rows are returned in the ***cleaned_combined_data*** table, removing 147,823 rows from the previous ***combined_data*** table.
 
 New columns have been added to the new table:
-- ride_duration – the duration of ride in minutes calculated from the difference of timestamps of “started_at” and “ended_at”
-- day_of_week – the day of the week that the trip entry occurred.
-- month – the name of the month that the trip occurred.
+- ***ride_duration*** – the duration of ride in minutes calculated from the difference of timestamps of “started_at” and “ended_at”
+- ***day_of_week*** – the day of the week that the trip entry occurred
+- ***month*** – the name of the month that the trip occurred
 
 
 

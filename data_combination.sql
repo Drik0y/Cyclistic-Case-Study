@@ -1,3 +1,4 @@
+-- Combining monthly trip data of Cyclistic
 CREATE TABLE  `coursera-training-420312.cyclistic_bikeshare.combined_data_01` AS
   SELECT *
   FROM `coursera-training-420312.cyclistic_bikeshare.202305_tripdata`

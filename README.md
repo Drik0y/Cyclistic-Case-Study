@@ -39,7 +39,9 @@ Each dataset contains monthly trip data and contains the following fields:
 
 ## PROCESS
 ### Data Combination
+
 SQL Query for [combining data](https://github.com/Drik0y/Cyclistic-Case-Study/blob/main/data_combination.sql).
+
 Considering the massive amount of data that the data files contain, we will combine them through [BigQuery](https://console.cloud.google.com/projectselector2/bigquery?supportedpurview=project&authuser=1) using SQL queries. 
 
 The query combined all data into one table that has a total of 5,738,612 observations.
@@ -59,7 +61,7 @@ After checking the table's schema, All column has the appropriate data types. Th
 ![image](https://github.com/Drik0y/Cyclistic-Case-Study/assets/170537437/42ef0d6e-fe3d-4116-bb0a-e3fe7287441d)
 
 #### Checking for Inconsistent Primary Key
-The primary key for this dataset which is “ride_id”  has the string length of 16, thus, there is no inconsistency in the primary key.
+The primary key for this dataset which is ***“ride_id”***  has the string length of 16, thus, there is no inconsistency in the primary key.
 ![image](https://github.com/Drik0y/Cyclistic-Case-Study/assets/170537437/094255da-e1d9-4e39-9411-bb62b3f0a2ae)
 
 #### Checking for Duplicate Observations
@@ -84,9 +86,9 @@ We will also checked if there are trips that are longer than a day. And, there a
 ### Data Cleaning
 SQL query for [data cleaning](https://github.com/WilmarLofranco/Cyclistic-Case-Study/blob/main/data_cleaning.sql).
 
-We have created a new table named ***cleaned_combined_data*** through this  where the following observations are omitted:
-- Observations with have trip durations that did not reach the 1-minute mark.
-- Observations with have trip durations that are longer than a day.
+We have created a new table named ***cleaned_combined_data*** where the following observations are omitted:
+- Observations with trip durations that did not reach the 1-minute mark.
+- Observations with trip durations that are longer than a day.
 - Rows have null latitude and longitude.
 Columns for the station names: *start_station_name* and *end_station_name* are not included in the new table since we will use the latitude and longitude values as replacement for geographic analysis.
 A total of 5,590,789 rows are returned in the ***cleaned_combined_data*** table, removing 147,823 rows from the previous ***combined_data*** table.

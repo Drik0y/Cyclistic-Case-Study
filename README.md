@@ -20,7 +20,7 @@ This case-study is a capstone project for the completion of [Google Data Analyti
 
 The data used are the previous 12 months (**May 2023 to April 2024**) [trip data of Cyclistic Bike-Share](https://divvy-tripdata.s3.amazonaws.com/index.html) and was extracted on the 13th day of May 2024. The data came from 5,824 bicycles that are geo-tracked and locked into a network of 692 stations across Chicago. The data has been made available by Motivate International Inc. under this [license](https://divvybikes.com/data-license-agreement).
 
-***Note:  Data-privacy issues prohibit using riders’ personally identifiable information. This means that we won’t be able to connect pass purchases to credit card numbers to determine if casual riders live in the Cyclistic service area or if they have purchased multiple single passes.***
+*Note:  Data-privacy issues prohibit using riders’ personally identifiable information. This means that we won’t be able to connect pass purchases to credit card numbers to determine if casual riders live in the Cyclistic service area or if they have purchased multiple single passes.*
 
 Each dataset contains monthly trip data and contains the following fields:
 1. ***ride_id*** – the unique key for each trip
@@ -42,13 +42,36 @@ Each dataset contains monthly trip data and contains the following fields:
 Considering the massive amount of data that the data files contain, we will combine them through [BigQuery](https://console.cloud.google.com/projectselector2/bigquery?supportedpurview=project&authuser=1) using SQL queries. 
 
 The [query statement](https://github.com/Drik0y/Cyclistic-Case-Study/blob/main/data_combination.sql) combined all data into one table that has a total of 5,738,612 observations.
+
 ![image](https://github.com/Drik0y/Cyclistic-Case-Study/assets/170537437/823d0507-2cac-4812-8e19-c862ec9c62e4)
 
 ### Data Checking
 #### Looking for Null Values
-Through this [query statement](https://github.com/Drik0y/Cyclistic-Case-Study/blob/main/data_checking.sql), we found out that ***start_station_name*** and ***start_station_id*** has 885,429 null values, ***end_station_name*** and ***end_station_id*** has 939,115 null values, and end_lat and end_lng has 7,610 null values.
+We found out that ***start_station_name*** and ***start_station_id*** has 885,429 null values, ***end_station_name*** and ***end_station_id*** has 939,115 null values, and ***end_lat*** and ***end_lng*** has 7,610 null values.
 
 ![image](https://github.com/Drik0y/Cyclistic-Case-Study/assets/170537437/8d3c2bbe-77fb-4891-bcf5-ea30a3a940d8)
+
+#### Checking for Inconsistent Data Types
+After checking the table's schema, All column has the appropriate data types. There is no need to change the data type of any variable.
+![image](https://github.com/Drik0y/Cyclistic-Case-Study/assets/170537437/42ef0d6e-fe3d-4116-bb0a-e3fe7287441d)
+
+#### Checking for Inconsistent Primary Key
+The primary key for this dataset which is “ride_id”  has the string length of 16, thus, there is no inconsistency in the primary key.
+![image](https://github.com/Drik0y/Cyclistic-Case-Study/assets/170537437/094255da-e1d9-4e39-9411-bb62b3f0a2ae)
+
+#### Checking for Duplicate Observations
+We counted the number of total observations and compared it to the count of distinct primary key values. There is no difference between them, therefore, we have no duplicate values.
+![image](https://github.com/Drik0y/Cyclistic-Case-Study/assets/170537437/17082cfd-2a61-424c-9dbc-c7c8496d8a0d)
+
+#### Checking for Invalid / Mispelled Bike Type Values
+We queried all unique values in the *rideable_type* column and only 3 unique types of bike came from the result: electric bikes, classic bikes, and docked bikes. No mispelled or invalid type of bike entry.
+![image](https://github.com/Drik0y/Cyclistic-Case-Study/assets/170537437/47cc6b9d-eef3-4a10-a576-37af7b0e169a)
+
+
+
+
+
+
 
 
 

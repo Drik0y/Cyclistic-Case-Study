@@ -39,7 +39,7 @@ Each dataset contains monthly trip data and contains the following fields:
 
 ## PROCESS
 ### Data Combination
-Considering the massive amount of data that the data files contain, we will combine them through [BigQuery](https://console.cloud.google.com/projectselector2/bigquery?supportedpurview=project&authuser=1) using [SQL query statement](https://github.com/Drik0y/Cyclistic-Case-Study/blob/main/data_combination.sql).
+Considering the massive amount of data that the data files contain, we will combine them through [BigQuery](https://console.cloud.google.com/projectselector2/bigquery?supportedpurview=project&authuser=1) using this [SQL query statement](https://github.com/Drik0y/Cyclistic-Case-Study/blob/main/data_combination.sql).
 
 The query combined all the data into one table that has a total of 5,738,612 observations.
 ![image](https://github.com/Drik0y/Cyclistic-Case-Study/assets/170537437/823d0507-2cac-4812-8e19-c862ec9c62e4)

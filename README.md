@@ -81,9 +81,9 @@ We will also checked if there are trips that are longer than a day. And, there a
 ***Note: All data checking query statements used are stored in [this file](https://github.com/Drik0y/Cyclistic-Case-Study/blob/main/data_checking.sql).***
 
 ### Data Cleaning
-We have created a new table named ***cleaned_combined_data*** where the following observations are omitted:
-- Observations that have trip durations that did not reach the 1-minute mark.
-- Observations that have trip durations that are longer than a day.
+We have created a new table named ***cleaned_combined_data*** through this [SQL query](https://github.com/WilmarLofranco/Cyclistic-Case-Study/blob/main/data_cleaning.sql) where the following observations are omitted:
+- Observations with have trip durations that did not reach the 1-minute mark.
+- Observations with have trip durations that are longer than a day.
 - Rows have null latitude and longitude.
 Columns for the station names: *start_station_name* and *end_station_name* are not included in the new table since we will use the latitude and longitude values as replacement for geographic analysis.
 A total of 5,590,789 rows are returned in the ***cleaned_combined_data*** table, removing 147,823 rows from the previous ***combined_data*** table.

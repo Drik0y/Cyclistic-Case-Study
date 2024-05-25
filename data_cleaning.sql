@@ -1,6 +1,6 @@
--- Data Cleaning: Creating new table that removes rows that negatively affects data integrity and columns that will not be used
+-- Data Cleaning: Creating new table that removes rows affects data integrity.
 -- New columns will be added: ride_duration, day_of_week, and month
-CREATE TABLE IF NOT EXISTS `coursera-training-420312.cyclistic_bikeshare.cleaned_combined_data1` AS
+CREATE TABLE IF NOT EXISTS `coursera-training-420312.cyclistic_bikeshare.cleaned_combined_data` AS
   SELECT 
     table1.ride_id,
     rideable_type,
@@ -30,6 +30,8 @@ CREATE TABLE IF NOT EXISTS `coursera-training-420312.cyclistic_bikeshare.cleaned
       WHEN 11 THEN 'NOV'
       WHEN 12 THEN 'DEC'
     END AS month,
+    start_station_name,
+    end_station_name,
     start_lat,
     start_lng,
     end_lat,
@@ -45,6 +47,8 @@ CREATE TABLE IF NOT EXISTS `coursera-training-420312.cyclistic_bikeshare.cleaned
       FROM `coursera-training-420312.cyclistic_bikeshare.combined_data`) AS table2
     ON table1.ride_id = table2.ride_id
   WHERE
+    start_station_name IS NOT NULL AND
+    end_station_name IS NOT NULL AND
     end_lat IS NOT NULL AND
     end_lng IS NOT NULL AND
     ride_duration > 1 AND

@@ -40,7 +40,7 @@ Each dataset contains monthly trip data and contains the following fields:
 ## PROCESS
 ### Data Combination
 
-SQL Query for [combining data](https://github.com/Drik0y/Cyclistic-Case-Study/blob/main/data_combination.sql).
+SQL Query for [data combination](https://github.com/Drik0y/Cyclistic-Case-Study/blob/main/data_combination.sql).
 
 Considering the massive amount of data that the data files contain, we will combine them through [BigQuery](https://console.cloud.google.com/projectselector2/bigquery?supportedpurview=project&authuser=1) using SQL queries. 
 
@@ -105,7 +105,7 @@ New columns have been added to the new table:
 SQL query for [data analysis]().
 
 Now that data is stored appropriately and has been prepared for analysis, let's start putting it to work.
-We will perform the following calculations through SQL queries and the results will be saved as tables for visualization in [Tableau](https://public.tableau.com/app/discover):
+We will perform the following calculations through SQL queries and the results will be saved as tables for visualization:
 
 - Total number of trips per type of bike by casual and member users
 - Total number of trips per month
@@ -117,12 +117,32 @@ We will perform the following calculations through SQL queries and the results w
 - Top 10 starting stations by casual and member users
 - Top 10 ending stations by casual and member users
 
+![image](https://github.com/WilmarLofranco/Cyclistic-Case-Study/assets/170537437/b83277f0-ddc0-4057-adec-1c4cdf1f5272)
 
+## SHARE
 
+Now that we have the necessary data tables for our visualization, we will now load them through an online tool called [**Tableau**](https://public.tableau.com/app/discover).
 
+### Number of Trips per Bike Type 
+![Dashboard 1 (1)](https://github.com/WilmarLofranco/Cyclistic-Case-Study/assets/170537437/595ec548-52ed-4b33-9244-b0843c11306e)
 
+### Number of Trips per Month and per Day
+![Dashboard 2](https://github.com/WilmarLofranco/Cyclistic-Case-Study/assets/170537437/5a7de56b-af5e-45a7-b298-7d0d1d4a07ad)
 
+### Number of trips per Hour of the Day
+![Dashboard 2 (2) (1)](https://github.com/WilmarLofranco/Cyclistic-Case-Study/assets/170537437/4c5bab87-3028-484a-b21a-0701738bff09)
 
+### Average Trip Duration per Month and per Day
+![Dashboard 3](https://github.com/WilmarLofranco/Cyclistic-Case-Study/assets/170537437/30dc09c4-d858-4fcb-a1c2-78f0128ba27a)
+
+### Average Trip Duration per Hour
+![Dashboard 3 (2) (1)](https://github.com/WilmarLofranco/Cyclistic-Case-Study/assets/170537437/5db04c94-eac6-420e-b99f-42dc0e660728)
+
+### Top Start Stations
+![Dashboard 6 (1)](https://github.com/WilmarLofranco/Cyclistic-Case-Study/assets/170537437/e4a9e5bc-d64b-4104-ae85-5e94228fdd95)
+
+### Top End Stations 
+![Dashboard 7](https://github.com/WilmarLofranco/Cyclistic-Case-Study/assets/170537437/659cdad7-1fa9-42d3-a321-0aa34ae8c175)
 
 
 

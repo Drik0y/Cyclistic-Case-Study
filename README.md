@@ -89,17 +89,35 @@ SQL query for [data cleaning](https://github.com/WilmarLofranco/Cyclistic-Case-S
 We have created a new table named ***cleaned_combined_data*** where the following observations are omitted:
 - Observations with trip durations that did not reach the 1-minute mark.
 - Observations with trip durations that are longer than a day.
-- Rows have null latitude and longitude.
-Columns for the station names: *start_station_name* and *end_station_name* are not included in the new table since we will use the latitude and longitude values as replacement for geographic analysis.
-A total of 5,590,789 rows are returned in the ***cleaned_combined_data*** table, removing 147,823 rows from the previous ***combined_data*** table.
+- Rows that have null station names.
+- Rows that have null latitude and longitude
+![image](https://github.com/WilmarLofranco/Cyclistic-Case-Study/assets/170537437/34902952-751d-4413-97f6-ce00ea02bbfa)
+
+A total of **4,255,498 rows** are returned in the ***cleaned_combined_data*** table, removing **1,483,114 rows** from the previous ***combined_data*** table.
 
 New columns have been added to the new table:
 - ***ride_duration*** – the duration of ride in minutes calculated from the difference of timestamps of “started_at” and “ended_at”
 - ***day_of_week*** – the day of the week that the trip entry occurred
 - ***month*** – the name of the month that the trip occurred
 
+## ANALYZE
 
+SQL query for [data analysis]().
 
+Now that data is stored appropriately and has been prepared for analysis, let's start putting it to work.
+We will perform the following calculations through SQL queries and the results will be saved as tables for visualization in [Tableau](https://public.tableau.com/app/discover):
+
+- Total number of trips per type of bike by casual and member users
+- Total number of trips per month
+- Total number of trips per day of the week
+- Total number of trips per hour of the day
+- Average trip duration per month
+- Average trip duration per day of the week
+- Average trip duration per hour of the day
+- Top 10 starting stations by casual and member users
+- Top 10 ending stations by casual and member users
+- Average starting latitude and longitude by casual and member users
+- Average ending latitude and longitude by casual and member users
 
 
 

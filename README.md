@@ -116,8 +116,7 @@ We will perform the following calculations through SQL queries and the results w
 - Average trip duration per hour of the day
 - Top 10 starting stations by casual and member users
 - Top 10 ending stations by casual and member users
-- Average starting latitude and longitude by casual and member users
-- Average ending latitude and longitude by casual and member users
+
 
 
 

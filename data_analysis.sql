@@ -207,4 +207,3 @@ GROUP BY
 ORDER BY
   num_trips DESC
 LIMIT 10;
-

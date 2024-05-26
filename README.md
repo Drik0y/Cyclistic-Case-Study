@@ -128,10 +128,14 @@ This phase will be critical in answering our business question: **How annual mem
 ### Number of Trips per Bike Type 
 ![Dashboard 1 (1)](https://github.com/WilmarLofranco/Cyclistic-Case-Study/assets/170537437/595ec548-52ed-4b33-9244-b0843c11306e)
 
-As we can see to the chart above, members use the bike-sharing service more often than casual users with 64% of the total trips are coming from them. The most used type of bike are classic bikes, followed by electric bikes. While docked bikes are the least used bikes which only constitutes 1.07% of the total trips. This could be due to the availability of docked bikes, whatever the case is, this is one of the limitation we have in our data: *there is no data as to how many bikes are availble for each type of bike.*
+As we can see to the chart above, members use the bike-sharing service more often than casual users with 64% of the total trips coming from them. The most used type of bike are classic bikes, followed by electric bikes. While docked bikes are the least used bikes which only constitutes 1.07% of the total trips. This could be due to the availability of docked bikes, whatever the case is, this is one of the limitation we have in our data: *there is no data as to how many bikes are availble for each type of bike.*
 
 ### Number of Trips per Month and per Day
 ![Dashboard 2](https://github.com/WilmarLofranco/Cyclistic-Case-Study/assets/170537437/5a7de56b-af5e-45a7-b298-7d0d1d4a07ad)
+
+In the monthly chart, the usage of Cyclistic's bikes peaks during summer which are the months of June to August. Then, the number of trips hits rock bottom during Winter in the months of December to February and starts to increase again during Spring in the months of April to May. This discovered pattern of riding behavior is both observable from members and casual users.
+
+In the daily observation, members often ride during weekdays and less often in weekends. In contrast, casual users have increased usage during weekends and lesser on weekdays. From this we can deduce that members use the bikes for commuting to work or school, while casuals use them for leisure and recreation.
 
 ### Number of trips per Hour of the Day
 ![Dashboard 2 (2) (1)](https://github.com/WilmarLofranco/Cyclistic-Case-Study/assets/170537437/4c5bab87-3028-484a-b21a-0701738bff09)

@@ -1,5 +1,5 @@
 <h1 align="center">
-Cyclistic Bike-Share: A Comprehensive Data Analytics Case-Study
+Cyclistic Bike-Share: A Data Analytics Case-Study
 </h1>
 <h3 align="center">
 May 26, 2024

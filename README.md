@@ -135,7 +135,7 @@ As we can see to the chart above, members use the bike-sharing service more ofte
 
 In the monthly chart, the usage of Cyclistic's bikes peaks during summer which are the months of June to August. Then, the number of trips hits rock bottom during Winter in the months of December to February and starts to increase again during Spring in the months of April to May. This discovered pattern of riding behavior is both observable from members and casual users.
 
-In the daily observation, members often ride during weekdays and less often in weekends. In contrast, casual users have increased usage during weekends and lesser on weekdays. From this we can deduce that members use the bikes for commuting to work or school, while casuals use them for leisure and recreation.
+In the daily observation, members often ride during weekdays and less often in weekends. In contrast, casual users have increased usage during weekends and lesser on weekdays. From this we can deduce that members likely use the bikes for commuting to school or work, while casuals likely use them for leisure and recreation.
 
 ### Number of trips per Hour of the Day
 ![Dashboard 2 (2) (1)](https://github.com/WilmarLofranco/Cyclistic-Case-Study/assets/170537437/4c5bab87-3028-484a-b21a-0701738bff09)

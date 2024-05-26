@@ -121,7 +121,7 @@ We will perform the following calculations through SQL queries and the results w
 
 ## SHARE
 
-Now that we have the necessary data tables, we will now import them through an visualization online tool called [**Tableau**](https://public.tableau.com/app/discover) to effectively communicate the patterns and insights we found.
+Now that we have the necessary data tables, we will now import them through an online visualization tool called [**Tableau**](https://public.tableau.com/app/discover) to effectively communicate the patterns and insights we found.
 
 This phase will be critical in answering our business question: **How annual members and casual riders use Cyclistic bikes differently?**
 

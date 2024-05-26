@@ -121,14 +121,14 @@ We will perform the following calculations through SQL queries and the results w
 
 ## SHARE
 
-Now that we have the necessary data tables, we will now import them through an online tool called [**Tableau**](https://public.tableau.com/app/discover) for visualization to effectively communicate the patterns and insights we found.
+Now that we have the necessary data tables, we will now import them through an visualization online tool called [**Tableau**](https://public.tableau.com/app/discover) to effectively communicate the patterns and insights we found.
 
-The data analysis question is: How annual members and casual riders use Cyclistic bikes differently?
+This phase will be critical in answering our business question: **How annual members and casual riders use Cyclistic bikes differently?**
 
 ### Number of Trips per Bike Type 
 ![Dashboard 1 (1)](https://github.com/WilmarLofranco/Cyclistic-Case-Study/assets/170537437/595ec548-52ed-4b33-9244-b0843c11306e)
 
-
+As we can see to the chart above, members use the bike-sharing service more often than casual users with 64% of the total trips are coming from them. The most used type of bike are classic bikes, followed by electric bikes. While docked bikes are the least used bikes which only constitutes 1.07% of the total trips. This could be due to the availability of docked bikes, whatever the case is, this is one of the limitation we have in our data: *there is no data as to how many bikes are availble for each type of bike.*
 
 ### Number of Trips per Month and per Day
 ![Dashboard 2](https://github.com/WilmarLofranco/Cyclistic-Case-Study/assets/170537437/5a7de56b-af5e-45a7-b298-7d0d1d4a07ad)

@@ -121,9 +121,9 @@ We will perform the following calculations through SQL queries and the results w
 
 ## SHARE
 
-Now that we have the necessary data tables, we will now import them through an online visualization tool called [**Tableau**](https://public.tableau.com/app/discover) to effectively communicate the patterns and insights we found.
-
 This phase will be critical in answering our business question: **How annual members and casual riders use Cyclistic bikes differently?**
+
+Now that we have the necessary data tables, we will now import them through an online visualization tool called [**Tableau**](https://public.tableau.com/app/discover) to effectively communicate the patterns and insights we found. Let's start with the distribution of trips per type of bike by both members and casual users.
 
 ### Number of Trips per Bike Type 
 ![Dashboard 1 (1)](https://github.com/WilmarLofranco/Cyclistic-Case-Study/assets/170537437/595ec548-52ed-4b33-9244-b0843c11306e)
@@ -134,11 +134,11 @@ As we can see to the chart above, members use the bike-sharing service more ofte
 ![Dashboard 2](https://github.com/WilmarLofranco/Cyclistic-Case-Study/assets/170537437/5a7de56b-af5e-45a7-b298-7d0d1d4a07ad)
 ![Dashboard 2 (2) (1)](https://github.com/WilmarLofranco/Cyclistic-Case-Study/assets/170537437/4c5bab87-3028-484a-b21a-0701738bff09)
 
-In the monthly chart, the usage of Cyclistic's bikes peaks during summer which are the months of June to August. Then, the number of trips hits rock bottom during Winter in the months of December to February and starts to increase again during Spring in the months of April to May. This discovered pattern of riding behavior is both observable from members and casual users.
+**Monthly:** The number of trips peaks in the months of June to August, which is summer season in Chicago. Then, the it hits rock bottom during Winter (December to February) and starts to increase again during Spring (April to May). This riding pattern is both observable from members and casual users.
 
-In the daily observation, members often ride during weekdays and less often in weekends. In contrast, notable increase in usage is seen from casual users during weekends and lesser on weekdays. 
+**Daily:** Members often ride during weekdays and less often in weekends. In contrast, casual users have notable increase in usage during weekends and lesser on weekdays. 
 
-In an hourly view, great number of members use the bike-sharing service around 8 in the morning and peaks around 4 to 6 in the afternoon. While trips of casual users increase consistently through out the day and continues to decrease after 6 in the afternoon.
+**Hourly:**: Great number of members use the bike-sharing service around 8 in the morning and peaks around 4 to 6 in the afternoon. While trips of casual users increase consistently throughout the day that peaks around 4 to 6 in the afternoon and then continue to decrease afterwards.
 
 Let's proceed with finding patterns in the trip duration.
 
@@ -146,7 +146,9 @@ Let's proceed with finding patterns in the trip duration.
 ![Dashboard 3](https://github.com/WilmarLofranco/Cyclistic-Case-Study/assets/170537437/30dc09c4-d858-4fcb-a1c2-78f0128ba27a)
 ![Dashboard 3 (2) (1)](https://github.com/WilmarLofranco/Cyclistic-Case-Study/assets/170537437/5db04c94-eac6-420e-b99f-42dc0e660728)
 
-Though members ride more frequently, casual users ride longer than members. Their average duration of trips lasts almost twice longer than members do. Members usual ride duration lasts up to 12 minutes and this is a steady trend throughout the year, week, and day. On the other hand, casual users usually last up to 23 minutes, but abruptly grows up to 25 minutes during the summer season, weekends, and from 10 AM to 2 PM. 
+Though members ride more frequently, casual users ride longer than members. Their usual trip duration lasts almost twice longer than members do. Members usually ride up to 12 minutes and this is a steady trend throughout the year, week, and day. On the other hand, casual users usually last up to 23 minutes, but abruptly grows up to 25 minutes during the summer season, weekends, and from 10 AM to 2 PM. 
+
+Now, our final visualization, the top station starting and ending locations of trips
 
 ### Top Start Stations
 ![Dashboard 6 (1)](https://github.com/WilmarLofranco/Cyclistic-Case-Study/assets/170537437/e4a9e5bc-d64b-4104-ae85-5e94228fdd95)
@@ -154,5 +156,54 @@ Though members ride more frequently, casual users ride longer than members. Thei
 ### Top End Stations 
 ![Dashboard 7](https://github.com/WilmarLofranco/Cyclistic-Case-Study/assets/170537437/659cdad7-1fa9-42d3-a321-0aa34ae8c175)
 
+Members' top starting and ending stations have very marginal difference, both lists the following as top five locations:
+1. *Clinton St & Washington Blvd*
+2. *Kingsbury St & Kinzie St*
+3. *Clark St & Elm St*
+4. *Clinton St & Madison St*
+5. *Wells St & Concord Ln.*
 
+Similarly, casual users' top starting and ending stations are also very identical, both lists the following as top five locations:
+1. *Streeter Dr & Grand Ave*
+2. *DuSable Lake Shore Dr & Monroe St*
+3. *Michigan Ave & Oak St*
+4. *DuSable Lake Shore Dr & North Blvd*
+5. *Millennium Park*
+
+### Summary of Findings
+
+#### Total Rides
+**Casuals:** Prefer to use the bike-sharing service every summer season, weekends, and throughout the day especially around 4 to 6 in the afternoon. 
+
+**Members:** Also prefer to bike every summer season, but bike more frequent every weekdays, every 8 in the morning and 4 to 6 in the afternoon.
+
+#### Ride Duration
+**Casuals:** Use Cyclistic's bikes almost twice longer than members despite having less frequent usage. They have longer trip durations every summer, weekends, and every 10 AM to 2PM.
+
+**Members:** Usually ride up to 12 minutes and this is a steady trend throughout the year, week, and day.
+
+
+#### Station Locations
+**Casuals:** Upon searching the web for landmarks and establishments near their top starting and ending stations, they are along the coast with close proximity to parks, museums, theather, and other recreational sites.
+
+**Members:** On the other hand, their top starting and ending stations are near universities, residential, and commercial areas.
+
+### Conclusions
+***After the analysis, all patterns and insights found have lead us to the inference that members and casual users likely use bikes for:***
+
+| Casuals | Members |
+| ----------- | ----------- |
+| Leisure and recreational activities |  Commuting to school, to work, or to commute back home |
+
+## ACT
+Now that we have discovered insights on the difference of riding behavior for both members and casual users, we will now proceed with our business task: **Design new marketing strategies to convince casual riders to avail Cyclistic's membership.**
+
+### Recommendations
+1. Cyclistic Bike-Share may offer seasonal memberships, since casual users are most active during summer. Timing our marketing efforts during weekends and summer season could attract clients as well.
+2. The team could consider giving incentives to members who have reached a certain total duration of rides. This incentive should be given to **members-only** to attract casuals to also avail membership.
+3. The marketing team should prioritize their promotions and campaigns near the most popular stations for casual users.
+
+### Suggestions
+- Surveys can be conducted to collect user demographics, and learn  about their experience, needs and preferences. These additional information could uncover further valuable insights.
+- Cyclistic's performance could be compared to other bike-sharing services to identify opportunities for improvement.
 

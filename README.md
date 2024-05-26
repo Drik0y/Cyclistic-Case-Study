@@ -1,6 +1,12 @@
 <h1 align="center">
 Cyclistic Bike-Share: A Comprehensive Data Analytics Case-Study
 </h1>
+<h3 align="center">
+May 26, 2024
+</h3>
+<h5 align="center">
+By Wilmar Lofranco 
+</h5>
 
 <p align="center">
 <img src=https://github.com/Drik0y/Cyclistic-Case-Study/assets/170537437/3a65d86a-7a83-4b92-bcb7-e719840f282e />

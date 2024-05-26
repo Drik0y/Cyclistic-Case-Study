@@ -172,21 +172,20 @@ Similarly, casual users' top starting and ending stations are also very identica
 
 ### Summary of Findings
 
-#### Total Rides
-**Casuals:** Prefer to use the bike-sharing service every summer season, weekends, and throughout the day especially around 4 to 6 in the afternoon. 
+##### Total Rides
+Casuals prefer to use the bike-sharing service every summer season, weekends, and throughout the day especially around 4 to 6 in the afternoon. 
 
-**Members:** Also prefer to bike every summer season, but bike more frequent every weekdays, every 8 in the morning and 4 to 6 in the afternoon.
+Members also prefer to bike every summer season, but bike more frequent every weekdays, every 8 in the morning and 4 to 6 in the afternoon.
 
-#### Ride Duration
-**Casuals:** Use Cyclistic's bikes almost twice longer than members despite having less frequent usage. They have longer trip durations every summer, weekends, and every 10 AM to 2PM.
+##### Ride Duration
+Casuals use Cyclistic's bikes almost twice longer than members despite having less frequent usage. They have longer trip durations every summer, weekends, and every 10 AM to 2PM.
 
-**Members:** Usually ride up to 12 minutes and this is a steady trend throughout the year, week, and day.
+Members however, usually ride up to 12 minutes and this is a steady trend throughout the year, week, and day.
 
+##### Station Locations
+Upon searching the web for landmarks and establishments near their top starting and ending stations, casuals are along the coast with close proximity to parks, museums, theather, and other recreational sites.
 
-#### Station Locations
-**Casuals:** Upon searching the web for landmarks and establishments near their top starting and ending stations, they are along the coast with close proximity to parks, museums, theather, and other recreational sites.
-
-**Members:** On the other hand, their top starting and ending stations are near universities, residential, and commercial areas.
+On the other hand, members top starting and ending stations are near universities, residential, and commercial areas.
 
 ### Conclusions
 ***After the analysis, all patterns and insights found have lead us to the inference that members and casual users likely use bikes for:***

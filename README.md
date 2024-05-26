@@ -132,21 +132,21 @@ As we can see to the chart above, members use the bike-sharing service more ofte
 
 ### Number of Trips per Month and per Day
 ![Dashboard 2](https://github.com/WilmarLofranco/Cyclistic-Case-Study/assets/170537437/5a7de56b-af5e-45a7-b298-7d0d1d4a07ad)
+![Dashboard 2 (2) (1)](https://github.com/WilmarLofranco/Cyclistic-Case-Study/assets/170537437/4c5bab87-3028-484a-b21a-0701738bff09)
 
 In the monthly chart, the usage of Cyclistic's bikes peaks during summer which are the months of June to August. Then, the number of trips hits rock bottom during Winter in the months of December to February and starts to increase again during Spring in the months of April to May. This discovered pattern of riding behavior is both observable from members and casual users.
 
 In the daily observation, members often ride during weekdays and less often in weekends. In contrast, notable increase in usage is seen from casual users during weekends and lesser on weekdays. 
 
-### Number of trips per Hour of the Day
-![Dashboard 2 (2) (1)](https://github.com/WilmarLofranco/Cyclistic-Case-Study/assets/170537437/4c5bab87-3028-484a-b21a-0701738bff09)
-
 In an hourly view, great number of members use the bike-sharing service around 8 in the morning and peaks around 4 to 6 in the afternoon. While trips of casual users increase consistently through out the day and continues to decrease after 6 in the afternoon.
 
-### Average Trip Duration per Month and per Day
-![Dashboard 3](https://github.com/WilmarLofranco/Cyclistic-Case-Study/assets/170537437/30dc09c4-d858-4fcb-a1c2-78f0128ba27a)
+Let's proceed with finding patterns in the trip duration.
 
-### Average Trip Duration per Hour
+### Average Trip Duration
+![Dashboard 3](https://github.com/WilmarLofranco/Cyclistic-Case-Study/assets/170537437/30dc09c4-d858-4fcb-a1c2-78f0128ba27a)
 ![Dashboard 3 (2) (1)](https://github.com/WilmarLofranco/Cyclistic-Case-Study/assets/170537437/5db04c94-eac6-420e-b99f-42dc0e660728)
+
+Though members ride more frequently, casual users ride longer than members. Their average duration of trips lasts almost twice longer than members do. Members usual ride duration lasts up to 12 minutes and this is a steady trend throughout the year, week, and day. On the other hand, casual users usually last up to 23 minutes, but abruptly grows up to 25 minutes during the summer season, weekends, and from 10 AM to 2 PM. 
 
 ### Top Start Stations
 ![Dashboard 6 (1)](https://github.com/WilmarLofranco/Cyclistic-Case-Study/assets/170537437/e4a9e5bc-d64b-4104-ae85-5e94228fdd95)

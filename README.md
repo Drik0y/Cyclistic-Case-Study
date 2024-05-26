@@ -208,7 +208,7 @@ Now that we have discovered insights on the difference of riding behavior for bo
 2. The team could consider giving incentives to members who have reached a certain total duration of rides. This incentive should be given to **members-only** to attract casuals to also avail membership.
 3. The marketing team should prioritize their promotions and campaigns near the most popular stations for casual users.
 
-### Suggestions
+### Further Suggestions
 - Surveys can be conducted to collect user demographics, and learn  about their experience, needs and preferences. These additional information could uncover further valuable insights.
 - Cyclistic's performance could be compared to other bike-sharing services to identify opportunities for improvement.
 

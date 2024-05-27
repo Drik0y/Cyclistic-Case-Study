@@ -194,7 +194,7 @@ Upon searching the web for landmarks and establishments near their top starting 
 On the other hand, members top starting and ending stations are near universities, residential, and commercial areas.
 
 ### Conclusions
-***After the analysis, all patterns and insights found have lead us to the inference that members and casual users likely use bikes for:***
+***After the analysis, all patterns and insights found have lead us to the inference that members and casualS likely use bikes for:***
 
 | Casuals | Members |
 | ----------- | ----------- |
